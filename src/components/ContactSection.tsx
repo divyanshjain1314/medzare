@@ -195,10 +195,10 @@ export function ContactSection() {
                           Email
                         </div>
                         <a
-                          href="mailto:shirshpalak28@gmail.com"
+                          href="mailto:shirshpalak20@gmail.com"
                           className="underline-reveal text-white/60 text-sm hover:text-yellow-400/80 transition-colors duration-300 break-all"
                         >
-                          shirshpalak28@gmail.com
+                          shirshpalak20@gmail.com
                         </a>
                       </div>
                     </motion.div>
@@ -254,7 +254,7 @@ export function ContactSection() {
                   {/* CTA */}
                   <div className="mt-10">
                     <motion.a
-                      href="mailto:shirshpalak28@gmail.com"
+                      href="mailto:shirshpalak20@gmail.com"
                       className="magnetic-btn flex items-center justify-center gap-3 w-full py-4 rounded-2xl font-semibold text-sm tracking-wide text-yellow-900"
                       style={{
                         background: "linear-gradient(135deg, hsl(45,80%,65%) 0%, hsl(45,90%,75%) 100%)",

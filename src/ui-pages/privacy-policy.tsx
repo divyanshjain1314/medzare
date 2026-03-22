@@ -20,7 +20,7 @@ H-30, Plot 6 & 7, 3rd Floor, Gulshan Park,
 Vijay Chowk, Laxmi Nagar, East Delhi,
 India — 110092
 
-Contact: shirshpalak28@gmail.com | +91-8435369211`,
+Contact: shirshpalak20@gmail.com | +91-8435369211`,
   },
   {
     title: "2. Information We Collect",
@@ -101,7 +101,7 @@ Once data is no longer required, we take appropriate steps to securely delete or
 • Right to Withdraw Consent: Where processing is based on consent, you may withdraw it at any time
 • Right to Grievance Redressal: You may raise a complaint with the relevant authority in India
 
-To exercise any of these rights, please contact us at shirshpalak28@gmail.com.`,
+To exercise any of these rights, please contact us at shirshpalak20@gmail.com.`,
   },
   {
     title: "9. Cookies and Tracking",
@@ -130,7 +130,7 @@ Sunil Kumar Jain
 Director — Medzare Pharma Private Limited
 H-30, Plot 6 & 7, 3rd Floor, Gulshan Park, Vijay Chowk,
 Laxmi Nagar, East Delhi, India — 110092
-Email: shirshpalak28@gmail.com
+Email: shirshpalak20@gmail.com
 Phone: +91-8435369211
 
 We will endeavor to address your grievance within 30 days of receipt.`,
@@ -287,10 +287,10 @@ export default function PrivacyPolicy() {
                 <br />
                 For questions or concerns, please contact us at{" "}
                 <a
-                  href="mailto:shirshpalak28@gmail.com"
+                  href="mailto:shirshpalak20@gmail.com"
                   className="text-yellow-500/60 hover:text-yellow-400/80 transition-colors duration-200"
                 >
-                  shirshpalak28@gmail.com
+                  shirshpalak20@gmail.com
                 </a>
               </p>
             </div>
