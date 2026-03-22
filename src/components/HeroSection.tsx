@@ -147,13 +147,13 @@ export function HeroSection() {
 
         {/* Main Headline */}
         <div className="mb-6 overflow-hidden">
-          <HeroText className="font-serif text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-light leading-[1.05] tracking-tight text-white">
+          <HeroText className="font-serif text-4xl sm:text-6xl md:text-7xl lg:text-8xl font-light leading-[1.05] tracking-tight text-white">
             Advancing Health
           </HeroText>
         </div>
         <div className="mb-6 overflow-hidden">
           <HeroText
-            className="font-serif text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-semibold leading-[1.05] tracking-tight"
+            className="font-serif text-4xl sm:text-6xl md:text-7xl lg:text-8xl font-semibold leading-[1.05] tracking-tight"
             style={{
               background:
                 "linear-gradient(135deg, hsl(45,80%,65%) 0%, hsl(45,90%,80%) 40%, hsl(35,70%,60%) 100%)",
