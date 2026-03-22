@@ -164,10 +164,10 @@ export function ContactSection() {
                           Phone
                         </div>
                         <a
-                          href="tel:+917999038539"
+                          href="tel:+918435369211"
                           className="underline-reveal text-white/60 text-sm hover:text-yellow-400/80 transition-colors duration-300"
                         >
-                          +91-7999038539
+                          +91-8435369211
                         </a>
                       </div>
                     </motion.div>
@@ -195,10 +195,10 @@ export function ContactSection() {
                           Email
                         </div>
                         <a
-                          href="mailto:swadeshishruti@gmail.com"
+                          href="mailto:shirshpalak28@gmail.com"
                           className="underline-reveal text-white/60 text-sm hover:text-yellow-400/80 transition-colors duration-300 break-all"
                         >
-                          swadeshishruti@gmail.com
+                          shirshpalak28@gmail.com
                         </a>
                       </div>
                     </motion.div>
@@ -254,7 +254,7 @@ export function ContactSection() {
                   {/* CTA */}
                   <div className="mt-10">
                     <motion.a
-                      href="mailto:swadeshishruti@gmail.com"
+                      href="mailto:shirshpalak28@gmail.com"
                       className="magnetic-btn flex items-center justify-center gap-3 w-full py-4 rounded-2xl font-semibold text-sm tracking-wide text-yellow-900"
                       style={{
                         background: "linear-gradient(135deg, hsl(45,80%,65%) 0%, hsl(45,90%,75%) 100%)",
@@ -274,7 +274,7 @@ export function ContactSection() {
                     </motion.a>
 
                     <motion.a
-                      href="tel:+917999038539"
+                      href="tel:+918435369211"
                       className="magnetic-btn flex items-center justify-center gap-3 w-full py-4 rounded-2xl font-semibold text-sm tracking-wide text-white/70 hover:text-white mt-3 border border-white/8 hover:border-yellow-500/25 transition-all duration-300"
                       style={{ background: "rgba(255,255,255,0.03)" }}
                       whileHover={{
