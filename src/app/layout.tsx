@@ -24,7 +24,7 @@ export const metadata: Metadata = {
   description:
     "Medzare Pharma Private Limited - A premium pharmaceutical company in New Delhi, India committed to delivering quality healthcare solutions with integrity and innovation.",
   icons: {
-    icon: "/favicon.svg",
+    icon: "/applogo.svg",
   },
   openGraph: {
     title: "Medzare Pharma Private Limited",
