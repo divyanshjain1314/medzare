@@ -23,10 +23,12 @@ export function Navbar() {
 
   const handleNavClick = (href: string) => {
     setMobileOpen(false);
-    const el = document.querySelector(href);
-    if (el) {
-      el.scrollIntoView({ behavior: "smooth", block: "start" });
-    }
+    setTimeout(() => {
+      const el = document.querySelector(href);
+      if (el) {
+        el.scrollIntoView({ behavior: "smooth", block: "start" });
+      }
+    }, 150);
   };
 
   return (
@@ -40,7 +42,7 @@ export function Navbar() {
           : "bg-transparent py-5"
           }`}
       >
-        <div className="max-w-7xl mx-auto px-6 flex items-center justify-between">
+        <div className={`max-w-7xl mx-auto px-6 flex items-center justify-between ${(mobileOpen && scrolled) ? 'pb-3.5' : mobileOpen ? "pb-5" : ''}`}>
           {/* Logo */}
           <motion.div
             className="flex items-center gap-3 cursor-pointer"
