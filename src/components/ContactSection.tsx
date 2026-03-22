@@ -119,7 +119,7 @@ export function ContactSection() {
                       transition={{ duration: 0.2 }}
                     >
                       <div
-                        className="w-10 h-10 rounded-xl flex items-center justify-center flex-shrink-0 mt-0.5"
+                        className="w-10 h-10 rounded-xl flex items-center justify-center shrink-0 mt-0.5"
                         style={{
                           background: "rgba(212,175,55,0.08)",
                           border: "1px solid rgba(212,175,55,0.15)",
@@ -149,7 +149,7 @@ export function ContactSection() {
                       transition={{ duration: 0.2 }}
                     >
                       <div
-                        className="w-10 h-10 rounded-xl flex items-center justify-center flex-shrink-0"
+                        className="w-10 h-10 rounded-xl flex items-center justify-center shrink-0"
                         style={{
                           background: "rgba(212,175,55,0.08)",
                           border: "1px solid rgba(212,175,55,0.15)",
@@ -179,7 +179,7 @@ export function ContactSection() {
                       transition={{ duration: 0.2 }}
                     >
                       <div
-                        className="w-10 h-10 rounded-xl flex items-center justify-center flex-shrink-0"
+                        className="w-10 h-10 rounded-xl flex items-center justify-center shrink-0"
                         style={{
                           background: "rgba(212,175,55,0.08)",
                           border: "1px solid rgba(212,175,55,0.15)",
@@ -229,7 +229,7 @@ export function ContactSection() {
                         transition={{ duration: 0.25 }}
                       >
                         <div
-                          className="w-10 h-10 rounded-full flex items-center justify-center text-yellow-500/70 text-sm font-serif font-semibold flex-shrink-0"
+                          className="w-10 h-10 rounded-full flex items-center justify-center text-yellow-500/70 text-sm font-serif font-semibold shrink-0"
                           style={{
                             background: "rgba(212,175,55,0.1)",
                             border: "1px solid rgba(212,175,55,0.2)",

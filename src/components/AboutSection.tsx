@@ -157,7 +157,7 @@ export function AboutSection() {
                   }}
                 >
                   <div
-                    className="w-12 h-12 rounded-xl flex items-center justify-center flex-shrink-0 text-yellow-500/70 group-hover:text-yellow-400 transition-colors duration-300"
+                    className="w-12 h-12 rounded-xl flex items-center justify-center shrink-0 text-yellow-500/70 group-hover:text-yellow-400 transition-colors duration-300"
                     style={{
                       background: "rgba(212,175,55,0.08)",
                       border: "1px solid rgba(212,175,55,0.15)",

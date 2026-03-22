@@ -94,7 +94,7 @@ export function Footer() {
             </h4>
             <div className="flex flex-col gap-4">
               <div className="flex items-start gap-3">
-                <div className="w-7 h-7 rounded-full border border-yellow-500/20 flex items-center justify-center flex-shrink-0 mt-0.5">
+                <div className="w-7 h-7 rounded-full border border-yellow-500/20 flex items-center justify-center shrink-0 mt-0.5">
                   <svg className="w-3 h-3 text-yellow-500/70" viewBox="0 0 16 16" fill="currentColor">
                     <path d="M8 0C5.24 0 3 2.24 3 5c0 3.75 5 11 5 11s5-7.25 5-11c0-2.76-2.24-5-5-5zm0 6.75C7.03 6.75 6.25 5.97 6.25 5S7.03 3.25 8 3.25 9.75 4.03 9.75 5 8.97 6.75 8 6.75z" />
                   </svg>
@@ -106,7 +106,7 @@ export function Footer() {
                 </p>
               </div>
               <div className="flex items-center gap-3">
-                <div className="w-7 h-7 rounded-full border border-yellow-500/20 flex items-center justify-center flex-shrink-0">
+                <div className="w-7 h-7 rounded-full border border-yellow-500/20 flex items-center justify-center shrink-0">
                   <svg className="w-3 h-3 text-yellow-500/70" viewBox="0 0 16 16" fill="currentColor">
                     <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328z" />
                   </svg>
@@ -116,7 +116,7 @@ export function Footer() {
                 </a>
               </div>
               <div className="flex items-center gap-3">
-                <div className="w-7 h-7 rounded-full border border-yellow-500/20 flex items-center justify-center flex-shrink-0">
+                <div className="w-7 h-7 rounded-full border border-yellow-500/20 flex items-center justify-center shrink-0">
                   <svg className="w-3 h-3 text-yellow-500/70" viewBox="0 0 16 16" fill="currentColor">
                     <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z" />
                   </svg>
@@ -130,7 +130,7 @@ export function Footer() {
         </div>
 
         {/* Divider */}
-        <div className="h-px bg-gradient-to-r from-transparent via-yellow-500/20 to-transparent mb-8" />
+        <div className="h-px bg-linear-to-r from-transparent via-yellow-500/20 to-transparent mb-8" />
 
         {/* Bottom Bar */}
         <div className="flex flex-col md:flex-row items-center justify-between gap-4">

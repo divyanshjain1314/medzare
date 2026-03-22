@@ -233,7 +233,7 @@ export function HeroSection() {
           <motion.div
             animate={{ y: [0, 8, 0] }}
             transition={{ duration: 1.5, repeat: Infinity, ease: "easeInOut" }}
-            className="w-px h-10 bg-gradient-to-b from-yellow-500/40 to-transparent"
+            className="w-px h-10 bg-linear-to-b from-yellow-500/40 to-transparent"
           />
         </motion.div>
       </div>
