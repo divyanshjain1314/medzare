@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 const footerLinks = [
@@ -27,11 +28,18 @@ export function Footer() {
           <div>
             <div className="flex items-center gap-3 mb-5">
               <div className="w-10 h-10 rounded-full border border-yellow-500/40 flex items-center justify-center">
-                <svg viewBox="0 0 40 40" className="w-6 h-6" fill="none">
+                {/* <svg viewBox="0 0 40 40" className="w-6 h-6" fill="none">
                   <path d="M20 4L4 20L20 36L36 20L20 4Z" stroke="hsl(45,80%,62%)" strokeWidth="1.5" fill="none" />
                   <path d="M20 10L10 20L20 30L30 20L20 10Z" fill="hsl(45,80%,52%)" opacity="0.4" />
                   <circle cx="20" cy="20" r="4" fill="hsl(45,80%,72%)" />
-                </svg>
+                </svg> */}
+                <Image
+                  className='w-8 h-8'
+                  src='/applogo.svg'
+                  alt='applogo'
+                  width={32}
+                  height={32}
+                />
               </div>
               <div>
                 <div

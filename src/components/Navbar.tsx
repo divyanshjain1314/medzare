@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import Image from "next/image";
 
 const navLinks = [
   { label: "Home", href: "#home" },
@@ -34,11 +35,10 @@ export function Navbar() {
         initial={{ y: -80, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
-        className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
-          scrolled
-            ? "glass-strong gold-glow py-3"
-            : "bg-transparent py-5"
-        }`}
+        className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${scrolled
+          ? "glass-strong gold-glow py-3"
+          : "bg-transparent py-5"
+          }`}
       >
         <div className="max-w-7xl mx-auto px-6 flex items-center justify-between">
           {/* Logo */}
@@ -50,20 +50,13 @@ export function Navbar() {
           >
             <div className="relative">
               <div className="w-10 h-10 rounded-full border border-yellow-500/40 flex items-center justify-center gold-glow">
-                <svg viewBox="0 0 40 40" className="w-6 h-6" fill="none">
-                  <path
-                    d="M20 4L4 20L20 36L36 20L20 4Z"
-                    stroke="hsl(45,80%,62%)"
-                    strokeWidth="1.5"
-                    fill="none"
-                  />
-                  <path
-                    d="M20 10L10 20L20 30L30 20L20 10Z"
-                    fill="hsl(45,80%,52%)"
-                    opacity="0.4"
-                  />
-                  <circle cx="20" cy="20" r="4" fill="hsl(45,80%,72%)" />
-                </svg>
+                <Image
+                  className='w-8 h-8'
+                  src='/applogo.svg'
+                  alt='applogo'
+                  width={32}
+                  height={32}
+                />
               </div>
             </div>
             <div>
