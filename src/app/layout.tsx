@@ -19,6 +19,7 @@ const cormorant = Cormorant_Garamond({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://medzare.com'),
   title: "Medzare Pharma Private Limited | Advancing Health Through Science",
   description:
     "Medzare Pharma Private Limited - A premium pharmaceutical company in New Delhi, India committed to delivering quality healthcare solutions with integrity and innovation.",
