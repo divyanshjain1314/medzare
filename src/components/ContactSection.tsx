@@ -214,7 +214,8 @@ export function ContactSection() {
                   <div className="space-y-5 mb-auto">
                     {[
                       { name: "Sunil Kumar Jain", role: "Director & Co-Founder", din: "DIN: 11599520" },
-                      { name: "Archana Devi", role: "Director & Co-Founder", din: "DIN: 11599518" },
+                      { name: "Archana Devi", role: "Sub Director", din: "DIN: 11599518" },
+                      { name: "Saroj Devi", role: "Sub Director", din: "DIN: 11599519" },
                     ].map((person) => (
                       <motion.div
                         key={person.name}
